@@ -1,0 +1,43 @@
+.container{
+    background-color: pink;
+    font-family: serif;
+}
+
+header{
+    background-color: wheat;
+    text-align: center;
+    font-size: x-large;
+    font-family: serif;
+
+}
+
+
+img{
+    width: 100%;
+}
+
+.container1{
+    display:flex;
+    height: 1000px;
+}
+
+.item1{
+    flex: 1;
+    text-align: center;
+}
+
+.item2{
+    flex: 1;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.item3{
+    flex: 1;
+    text-align: center;
+}
+
+.item4{
+    text-align: center;
+}
+

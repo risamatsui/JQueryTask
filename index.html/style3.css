@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+}
+
+.her{
+    flex: 1;
+    height: 700px;
+    margin-left: 50px;
+}
+
+.him{
+    flex: 1;
+    height: 700px;
+    margin-left: 300px;
+    margin-right: 50px;
+    
+}
+
+
+
+  .sample5 {
+	width:			600px;
+	height:			600px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+
+.sample5 .caption {
+	font-size:		130%;
+	color:			#fff;
+	padding-top:		80px;
+	padding-left:		100px;
+}
+.sample5 .mask {
+	width:			500px;
+	height:			500px;
+	position:		absolute;
+	top:			0;
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(0);	/* 大きさを０にして表示しない */
+	transform:		scale(0);
+}
+.sample5:hover .mask {
+	-webkit-transform:	scale(1);	/* 大きさを１にして表示する */
+	transform:		scale(1);
+}
